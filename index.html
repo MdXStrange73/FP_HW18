@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contact List</h1>
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Номер</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+        <tbody id="contactList">
+        </tbody>
+    </table>
+    <div id="formContainer">
+        <h2>Добавить контакт</h2>
+        <input type="text" id="firstName" placeholder="Имя">
+        <input type="text" id="lastName" placeholder="Фамилия">
+        <input type="text" id="phoneNumber" placeholder="Номер">
+        <button id="addContact">Добавить</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
